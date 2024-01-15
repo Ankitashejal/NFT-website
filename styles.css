@@ -21,6 +21,7 @@ header{
   padding: 20px;
   border-bottom: 1px solid #3d3d3d;
 }
+
   .nav-container{
     display: flex;
     justify-content: space-between;
@@ -84,6 +85,101 @@ header{
   transition: all 0.3s ease;
 }
 
+/*hero-section*/
+
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-sub-section{
+  display:flex;
+  /* for adding direction in flexbox */
+  flex-direction: column;  
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left-hero-title{
+  color:white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
 
 
+.left-hero-desc{
+  color: #c7bcbc;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 20px 0;
+ 
+}
 
+.btn-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+}
+
+.btn-secondary{
+  background-color: #3d3d3d;
+  border: 1px solid #d88b2a;
+  outline: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.right-sub-section{
+  margin-left:40px ;
+
+}
+
+.img-container{
+  border-radius: 100%;
+  overflow: hidden;
+  border:25px solid #3d3d3d;
+}
+
+.newest-section{
+  padding: 50px;
+  width: 100%;
+  height: 100vh;
+  background-color: #212121;
+}
+
+.upper-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.upper-section-tittle{
+  color: white;
+  font-size: 2rem;
+}
+
+.lower-section{
+
+}
+
+.card-container{
+  background-color: ;
+  padding: 18px;
+  border-radius: 10px;
+  border:1px solid #3d3d3d;
+}
+
+.card-banner-container{
+  
+}
